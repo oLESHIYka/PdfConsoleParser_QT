@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<journal>
+    <text lang="RUS">Тестовая сторока, проверка связи!!!</text>
+    <nums>
+        <id>0</id>
+        <num>1</num>
+        <id>1</id>
+        <num>2</num>
+        <id>2</id>
+        <num>3</num>
+        <id>3</id>
+        <num>4</num>
+        <id>4</id>
+        <num>5</num>
+        <id>5</id>
+        <num>6</num>
+    </nums>
+</journal>

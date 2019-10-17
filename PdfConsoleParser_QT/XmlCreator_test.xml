@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<journal>
+    <operCard>
+        <operator>Articulus_2687</operator>
+        <pid></pid>
+        <date></date>
+        <cntArticle></cntArticle>
+        <cntNode/>
+        <cs>0</cs>
+    </operCard>
+    <titleid>58030</titleid>
+    <issn></issn>
+    <eissn>2500-316X</eissn>
+    <journalInfo lang="RUS">
+        <title>Российский технологический журнал</title>
+    </journalInfo>
+    <issue>
+        <volume></volume>
+        <number></number>
+        <altNumber></altNumber>
+        <part></part>
+        <dateUni></dateUni>
+        <issTitle></issTitle>
+        <pages></pages>
+        <articles>
+            <section>
+                <secTitle lang="RUS">СОВРЕМЕННЫЕ РАДИОТЕХНИЧЕСКИЕ И ТЕЛЕКОММУНИКАЦИОННЫЕ СИСТЕМЫ</secTitle>
+            </section>
+            <article>
+                <pages></pages>
+                <artType>RAR</artType>
+                <authors/>
+                <artTitles>
+                    <artTitle lang="RUS"></artTitle>
+                    <artTitle lang="ENG"></artTitle>
+                </artTitles>
+                <abstracts>
+                    <abstract lang="RUS"></abstract>
+                    <abstract lang="ENG"></abstract>
+                </abstracts>
+                <text lang="RUS"></text>
+                <codes>
+                    <udk></udk>
+                </codes>
+                <keywords>
+                    <kwdGroup lang="ANY"/>
+                </keywords>
+                <references/>
+                <files>
+                    <file></file>
+                </files>
+            </article>
+            <section>
+                <secTitle lang="RUS">ИНФОРМАЦИОННЫЕ СИСТЕМЫ. ИНФОРМАТИКА. ПРОБЛЕМЫ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ</secTitle>
+            </section>
+            <article>
+                <pages></pages>
+                <artType>RAR</artType>
+                <authors/>
+                <artTitles>
+                    <artTitle lang="RUS"></artTitle>
+                    <artTitle lang="ENG"></artTitle>
+                </artTitles>
+                <abstracts>
+                    <abstract lang="RUS"></abstract>
+                    <abstract lang="ENG"></abstract>
+                </abstracts>
+                <text lang="RUS"></text>
+                <codes>
+                    <udk></udk>
+                </codes>
+                <keywords>
+                    <kwdGroup lang="ANY"/>
+                </keywords>
+                <references/>
+                <files>
+                    <file></file>
+                </files>
+            </article>
+            <section>
+                <secTitle lang="RUS">МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ</secTitle>
+            </section>
+            <article>
+                <pages></pages>
+                <artType>RAR</artType>
+                <authors/>
+                <artTitles>
+                    <artTitle lang="RUS"></artTitle>
+                    <artTitle lang="ENG"></artTitle>
+                </artTitles>
+                <abstracts>
+                    <abstract lang="RUS"></abstract>
+                    <abstract lang="ENG"></abstract>
+                </abstracts>
+                <text lang="RUS"></text>
+                <codes>
+                    <udk></udk>
+                </codes>
+                <keywords>
+                    <kwdGroup lang="ANY"/>
+                </keywords>
+                <references/>
+                <files>
+                    <file></file>
+                </files>
+            </article>
+        </articles>
+    </issue>
+</journal>

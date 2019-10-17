@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+.txt { white-space:nowrap; }
+#f0 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+#f1 { font-family:monospace; font-weight:normal; font-style:normal; }
+#f2 { font-family:serif; font-weight:normal; font-style:italic; }
+#f3 { font-family:serif; font-weight:bold; font-style:italic; }
+#f4 { font-family:serif; font-weight:bold; font-style:normal; }
+#f5 { font-family:serif; font-weight:normal; font-style:normal; }
+#f6 { font-family:serif; font-weight:normal; font-style:italic; }
+#f7 { font-family:serif; font-weight:normal; font-style:normal; }
+#f8 { font-family:sans-serif; font-weight:normal; font-style:normal; }
+</style>
+</head>
+<body>
+<img id="background" style="position:absolute; left:0px; top:0px;" width="595" height="841" src="page2.png">
+<div class="txt" style="position:absolute; left:68px; top:57px;"><span id="f4" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">Линейная фильтрация выходных данных в охранной однопозиционной системе</span></div>
+<div class="txt" style="position:absolute; left:70px; top:102px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">A definition of estimation describes criteria for the quality of filtering process, parameters for</span></div>
+<div class="txt" style="position:absolute; left:70px; top:116px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">modeling the system and the results of the modeling. The suggested criteria for the quality of</span></div>
+<div class="txt" style="position:absolute; left:70px; top:131px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">filtering process include average, variance and standard deviation of filtering errors and interval</span></div>
+<div class="txt" style="position:absolute; left:70px; top:145px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">between the true and filtering values. Initial values for the modeling and the results of the</span></div>
+<div class="txt" style="position:absolute; left:70px; top:160px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">modeling are presented. In conclusion, the filtering improves with increasing spectral width of</span></div>
+<div class="txt" style="position:absolute; left:70px; top:174px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">probing signal and signal/noise ratio. However, Kalman filtering is most effective.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:203px;"><span id="f6" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">Keywords: </span><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">linear filtering, Kalman filter, Wiener filter, α-β filter, estimating the quality of</span></div>
+<div class="txt" style="position:absolute; left:70px; top:217px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">filtering, security system.</span></div>
+<div class="txt" style="position:absolute; left:272px; top:255px;"><span id="f7" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">Введение</span></div>
+<div class="txt" style="position:absolute; left:78px; top:278px;"><span id="f5" style="font-size:33px;vertical-align:top;line-height:75%;color:rgba(35,31,31,1);">З</span><span id="f5" style="font-size:12px;vertical-align:top;color:rgba(35,31,31,1);">адачи получения оценок параметров радиосигналов и фильтрации выходных дан-</span></div>
+<div class="txt" style="position:absolute; left:95px; top:292px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">ных в радиолокационных системах являются одними из ключевых в радиотехнике.</span></div>
+<div class="txt" style="position:absolute; left:70px; top:307px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">Они формулируются следующим образом: по принятой реализации сигнала необходи-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:321px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">мо определить значение параметра сигнала с минимальной погрешностью. Что касается</span></div>
+<div class="txt" style="position:absolute; left:70px; top:335px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">фильтрации наблюдаемых параметров, то эта проблема более общая и сложная: предпо-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:350px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">лагается, что оцениваемый параметр наблюдения может меняться во времени, и он также</span></div>
+<div class="txt" style="position:absolute; left:70px; top:364px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">подлежит определению с минимальной погрешностью в течение заданного интервала</span></div>
+<div class="txt" style="position:absolute; left:70px; top:379px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">времени. В радиотехнике указанные задачи нередко дополняют друг друга, причем воз-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:393px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">можно выбрать такие интервалы наблюдения, при которых измеряемый параметр счита-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:407px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">ют постоянным, и на таких интервалах производят оценку параметра. Далее, объединяя</span></div>
+<div class="txt" style="position:absolute; left:70px; top:422px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">такие интервалы (траекторная обработка), используют различные методы фильтрации.</span></div>
+<div class="txt" style="position:absolute; left:70px; top:436px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">Существует множество подходов к реализации процедур оценки и фильтрации [1−4], од-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:451px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">нако они дают выражения только в общем виде, а конкретных характеристик качества</span></div>
+<div class="txt" style="position:absolute; left:70px; top:465px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">фильтрации при заданном характере изменения измеряемых параметров и самой техни-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:479px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">ческой системы − не дают. Таким образом, возникает задача оценки качества фильтрации</span></div>
+<div class="txt" style="position:absolute; left:70px; top:494px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">в некоторой конкретной радиолокационной системе при использовании различных типов</span></div>
+<div class="txt" style="position:absolute; left:70px; top:508px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">фильтрации.</span></div>
+<div class="txt" style="position:absolute; left:90px; top:524px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">В настоящей работе рассмотрена охранная однопозиционная система, которая по-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:539px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">сылает сигнал до объекта наблюдения (ОН) и принимает эхосигнал. Соответственно,</span></div>
+<div class="txt" style="position:absolute; left:70px; top:554px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">принятый эхосигнал зависит от местоположения и характера движения ОН. В качестве</span></div>
+<div class="txt" style="position:absolute; left:70px; top:570px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">модели движения ОН предложена марковская последовательность.</span></div>
+<div class="txt" style="position:absolute; left:133px; top:593px;"><span id="f7" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">1. Охранная однопозиционная система и объект наблюдения</span></div>
+<div class="txt" style="position:absolute; left:90px; top:617px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">Как уже отмечалось выше, охранная система представляет собой однопозиционную</span></div>
+<div class="txt" style="position:absolute; left:70px; top:632px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">радиосистему, которая в импульсном режиме облучает ОН и принимает эхосигнал. Она</span></div>
+<div class="txt" style="position:absolute; left:70px; top:647px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">изображена на рис. 1. Система измеряет временную задержку распространения импуль-</span></div>
+<div class="txt" style="position:absolute; left:70px; top:663px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">сного сигнала τ от охранной системы до объекта и пеленг β, которые, в свою очередь,</span></div>
+<div class="txt" style="position:absolute; left:70px; top:678px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">зависят от положения ОН в декартовой системе координат X и Y. Отсюда можно записать</span></div>
+<div class="txt" style="position:absolute; left:70px; top:694px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">следующие формулы связи между измеряемыми параметрами и координатами ОН при</span></div>
+<div class="txt" style="position:absolute; left:70px; top:709px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">приёме ν-го импульса:</span></div>
+<div class="txt" style="position:absolute; left:510px; top:743px;"><span id="f5" style="font-size:12px;vertical-align:baseline;color:rgba(35,31,31,1);">(1)</span></div>
+<div class="txt" style="position:absolute; left:68px; top:793px;"><span id="f1" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">14</span></div>
+<div class="txt" style="position:absolute; left:180px; top:794px;"><span id="f2" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">Российский технологический журнал </span><span id="f3" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">2017 Том 5 </span><span id="f2" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">№ </span><span id="f3" style="font-size:10px;vertical-align:baseline;color:rgba(35,31,31,1);">5</span></div>
+</body>
+</html>

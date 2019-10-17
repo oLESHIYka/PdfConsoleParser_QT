@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="PdfParser">
+      <UniqueIdentifier>{a32d9f08-1a9c-4b3d-9832-37af1a7deaef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdfParser\Document">
+      <UniqueIdentifier>{f30b241c-f34c-46c3-995e-4fbf3a25072a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2445538b-6faf-4356-a8d5-90e8ccede4dc}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{884b2c64-b714-474d-8a66-0f79ad568996}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{0975203e-6cfb-4f07-9954-7a26f9aace1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdfParser\Document\Issue">
+      <UniqueIdentifier>{ebe7ee04-c9dd-4cab-92a9-58520b07aa1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdfParser\Document\Issue\Page">
+      <UniqueIdentifier>{bb36d629-dac6-4984-b529-6031c4e9a079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdfParser\Document\Issue\Page\TextBlock">
+      <UniqueIdentifier>{3cdc9a09-1846-498c-9308-d24cc86ea475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdfParser\Document\Issue\Page\TextStyle">
+      <UniqueIdentifier>{9ed670b8-e5c1-41d8-8dfa-8b7059a84562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XmlCreator">
+      <UniqueIdentifier>{cdb1f02f-4b22-457d-b440-f1ae65361a00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Text\Style\TextStyle.cpp">
+      <Filter>PdfParser\Document\Issue\Page\TextStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PdfParser\PdfParser.cpp">
+      <Filter>PdfParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PdfParser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PdfParser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Text\Block\TextBlock.cpp">
+      <Filter>PdfParser\Document\Issue\Page\TextBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Document\Issue\Page\Page.cpp">
+      <Filter>PdfParser\Document\Issue\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XmlCreator\XmlCreator.cpp">
+      <Filter>XmlCreator</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_XmlCreator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_XmlCreator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Text\Style\TextStyle.h">
+      <Filter>PdfParser\Document\Issue\Page\TextStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Text\Block\TextBlock.h">
+      <Filter>PdfParser\Document\Issue\Page\TextBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Document\Issue\Page\Page.h">
+      <Filter>PdfParser\Document\Issue\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Document\Issue\Issue.h">
+      <Filter>PdfParser\Document\Issue</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Document\Document.h">
+      <Filter>PdfParser\Document</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MaybeType\MaybeType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cfg\path.cfg">
+      <Filter>Configuration</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="source\PdfParser\PdfParser.h">
+      <Filter>PdfParser</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\XmlCreator\XmlCreator.h">
+      <Filter>XmlCreator</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

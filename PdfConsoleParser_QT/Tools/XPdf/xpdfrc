@@ -1,0 +1,11 @@
+#----- display fonts
+
+fontFile Symbol            /fonts/s050000l.pfb
+fontFile ZapfDingbats      /fonts/d050000l.pfb
+
+#textEncoding        UTF-8
+
+#----- begin Cyrillic support package (2011-aug-15)
+#nameToUnicode               D:/Program Files/xpdf/cyrillic/Bulgarian.nameToUnicode
+#unicodeMap    KOI8-R        D:/Program Files/xpdf/cyrillic/KOI8-R.unicodeMap
+#----- end Cyrillic support package

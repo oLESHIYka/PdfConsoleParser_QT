@@ -1,0 +1,44 @@
+Статья 1:
+  Страница 1:
+	header: 	top: [32 - 49], font: 14
+	UDK: 		top: 133
+	bottom:		top: [793-794], font: 10
+	prev block: top: 748
+  Страница 2:
+    header: 	top: 57, font: 10
+	next block:	top: 102
+	bottom: equal
+  Страница 3:
+	header: 	top: 57, font: 10
+	next block: top: 124
+	bottom:		equal
+	
+Статья 2:
+  Страница 1:
+	header: 	top: [39 - 56], font: 14
+	UDK: 		top: 124, font: 12
+	bottom:		top: 796, font: 10
+	prev block: top: 744
+  Страница 2:
+    header: 	top: 51-62, font: 10
+	next block:	top: 102
+	bottom: equal
+  Страница 3:
+	header: 	top: 59, font: 10
+	next block: top: 99
+	bottom:		equal
+	
+Статья 3:
+  Страница 1:
+	header: 	top: [28 - 45], font: 14
+	UDK: 		top: 119, font: 12
+	bottom:		top: [793 - 794], font: 10
+	prev block: top: 750
+  Страница 2:
+    header: 	top: 51-62, font: 10
+	next block:	top: 102
+	bottom: equal
+  Страница 3:
+	header: 	top: 59, font: 10
+	next block: top: 99
+	bottom:		equal
